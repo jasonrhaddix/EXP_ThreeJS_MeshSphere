@@ -1,0 +1,16 @@
+{
+  "name": "ThreeJS_MeshManipulation",
+  "version": "1.0.0",
+  "author": "Jason Haddix",
+  "license": "BSD-3-Clause",
+  "description": "This project is the repository for my experiment using HTML5 'getUserMedia()' for webcam access and applying it as a mesh texture in ThreeJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonrhaddix/ThreeJS_Webcam.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi, user-scalable=no">
+		
+		<meta property="og:title" content="" >
+		<meta property="og:site_name" content="" >
+		<meta property="og:url" content="" >
+		<meta property="og:description" content="">
+		<meta property="og:image" content="" >
+		<meta property="og:type" content="website" >
+		
+		<meta name="robots" content="noindex, nofollow" >
+		<meta name="description" content="" >
+
+        <!-- Place favicon.ico in the root directory -->
+
+		<!--
+		// APPLE TOUCH ICONS
+		<link rel="apple-touch-icon" sizes="57x57" href="site-images/images/icons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="site-images/images/icons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="site-images/images/icons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="site-images/images/icons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="site-images/images/icons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="site-images/images/icons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="site-images/images/icons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="site-images/images/icons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="site-images/images/icons/apple-icon-180x180.png">
+		
+		// DEFAULT ICONS
+		<link rel="icon" type="image/png" sizes="192x192"  href="site-images/images/icons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="site-images/images/icons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="site-assets/images/icons/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="site-assets/images/icons/favicons/favicon-16x16.png">
+		
+		// MS TILE ICON
+		-->
+		
+		<meta name="msapplication-TileImage" content="site-images/images/icons/ms-icon-144x144.png">
+		<!-- <link rel="manifest" href="site-images/images/icons/_manifest.json"> -->
+
+		<meta name="msapplication-TileColor" content="#000">
+		<meta name="theme-color" content="#000">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+        
+        <title>Mesh Manipulation</title>
+        
+        <link rel="stylesheet" href="scripts/css/main.css">
+
+    </head>
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<video id="webcam" autoplay></video>
+		
+		<div id="error-element"></div>
+        <!-- application content here -->
+
+        <div id="threejs-container"></div>
+        <div id="title">
+        	<h1>MESH MANIPULATION</h1>
+        	<h2>IN THREEJS</h2>
+        </div>
+        
+
+
+
+
+		<script src="scripts/js/_lib/jquery/jquery-1.12.3.min.js"></script>
+		<script src="scripts/js/_lib/modernizr/modernizr-custom.js"></script>
+		<!--<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>-->
+		<!--<script src="scripts/js/_lib/tweenjs/tween.min.js"></script>-->
+		<script src="scripts/js/_lib/threejs/three.min.js"></script>
+		<script src="scripts/js/_lib/threejs/shaders/UnpackDepthRGBAShader.js"></script>
+		<script src="scripts/js/_lib/threejs/utils/ShadowMapViewer.js"></script>
+		<script src="scripts/js/_lib/threejs/controls/OrbitControls.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+		
+		<!--
+		<script src="scripts/js/_lib/wagner/Wagner.js"></script>
+		<script src="scripts/js/_lib/wagner/Wagner.base.js"></script>
+		<script src="scripts/js/_lib/wagner/ShaderLoader.js"></script>
+		-->
+
+		<script src="scripts/js/main.js"></script>
+		<script type="text/javascript"> init(); </script>
+    </body>
+</html>
