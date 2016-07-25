@@ -4,15 +4,10 @@ body {
   padding: 0;
   overflow: hidden;
   background: red;
-  /* For browsers that do not support gradients */
   background: -webkit-radial-gradient(circle, #273030, #0A0D0D);
-  /* Safari */
   background: -o-radial-gradient(circle, #273030, #0A0D0D);
-  /* Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(circle, #273030, #0A0D0D);
-  /* Firefox 3.6 to 15 */
-  background: radial-gradient(circle, #273030, #0A0D0D);
-  /* Standard syntax */ }
+  background: radial-gradient(circle, #273030, #0A0D0D); }
 
 #webcam {
   position: fixed;
@@ -21,12 +16,7 @@ body {
   height: auto;
   top: 0;
   left: 0;
-  z-index: 1;
-  	/*
-      -webkit-transform:rotateY(180deg);
-      -moz-transform:rotateY(180deg);
-      transform: rotateY(180deg);
-      */ }
+  z-index: 1; }
 
 #title {
   position: absolute;

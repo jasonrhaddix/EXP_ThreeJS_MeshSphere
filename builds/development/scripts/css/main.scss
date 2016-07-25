@@ -4,11 +4,11 @@ body {
 	padding: 0;
 	overflow: hidden;
 
-	background: red; /* For browsers that do not support gradients */
-	background: -webkit-radial-gradient(circle, #273030, #0A0D0D); /* Safari */
-	background: -o-radial-gradient(circle, #273030, #0A0D0D); /* Opera 11.6 to 12.0 */
-	background: -moz-radial-gradient(circle, #273030, #0A0D0D); /* Firefox 3.6 to 15 */
-	background: radial-gradient(circle, #273030, #0A0D0D); /* Standard syntax */
+	background: red;
+	background: -webkit-radial-gradient(circle, #273030, #0A0D0D);
+	background: -o-radial-gradient(circle, #273030, #0A0D0D);
+	background: -moz-radial-gradient(circle, #273030, #0A0D0D);
+	background: radial-gradient(circle, #273030, #0A0D0D);
 }
 
 
@@ -20,12 +20,6 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 1;
-
-	/*
-    -webkit-transform:rotateY(180deg);
-    -moz-transform:rotateY(180deg);
-    transform: rotateY(180deg);
-    */
 }
 
 
@@ -35,18 +29,14 @@ body {
 	top: 1em;
 	left: 0;
 	text-align: center;
-	// text-shadow: 1px 1px #000;
 	
-
 
 	h1, h2 {
 		position: relative;
-
 		font-family: Helvetica, sans-serif;
 		color:#FFF;
 		line-height: 0.5em;
 		letter-spacing: 0.2em;
-
 	}
 
 
