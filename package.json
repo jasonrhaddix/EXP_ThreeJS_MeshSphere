@@ -1,12 +1,12 @@
 {
-  "name": "ThreeJS_MeshManipulation",
+  "name": "ThreeJS_MeshSphere",
   "version": "1.0.0",
   "author": "Jason Haddix",
   "license": "BSD-3-Clause",
-  "description": "This project is the repository for my experiment using HTML5 'getUserMedia()' for webcam access and applying it as a mesh texture in ThreeJS",
+  "description": "This is the repository for my ThreeJS experiment. This experiment uses mouse events to modify the vertices and faces of a 3D object created in Blender and imported into ThreeJS as a JSON format.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonrhaddix/ThreeJS_Webcam.git"
+    "url": "https://github.com/jasonrhaddix/ThreeJS_MeshSphere.git"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
